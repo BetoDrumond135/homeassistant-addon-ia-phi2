@@ -1,0 +1,15 @@
+{
+  "name": "IA Local Phi-2",
+  "version": "1.0",
+  "slug": "ia_phi2",
+  "description": "Servidor local rodando o modelo Phi-2 em FastAPI.",
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "panel_icon": "mdi:robot",
+  "ports": {
+    "8000/tcp": 8000
+  },
+  "privileged": ["SYS_ADMIN"],
+  "image": "local/ia_phi2"
+}
