@@ -9,7 +9,3 @@
   "panel_icon": "mdi:robot",
   "ports": {
     "8000/tcp": 8000
-  },
-  "privileged": ["SYS_ADMIN"],
-  "image": "local/ia_phi2"
-}
